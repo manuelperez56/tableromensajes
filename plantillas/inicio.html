@@ -1,0 +1,7 @@
+<!-- plantillas/inicio.html -->>
+<h1>PAGINA DE INICIO DE TABLERO DE MENSAJES</h1>
+<ul>
+  {% for pub in pubs_list %}
+    <li>{{ pub.texto }}</li>
+  {% endfor %}
+</ul>
